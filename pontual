@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro fuse = 1
+	escreva("Insira o tempo de detonação: ")
+	leia(fuse)
+	
+		para (inteiro i=fuse; i>0; i-=1)
+		{
+			escreva (i, "! \n")
+		}
+		escreva("BOOM!")
+	}
+}
