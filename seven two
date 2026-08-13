@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro loop = 1
+		inteiro soma = 0
+		inteiro num = 0
+
+		faca
+		{
+			 escreva ("Insira um número: ")
+			 leia (num)
+			 escreva (num,"\n")
+			 se (num < 72)
+			 {
+			 	soma += num
+			 	}
+			 loop += 1
+			 } enquanto (loop<=6)		
+		
+		escreva ("A soma é: ",soma, "! Valores maiores que 72 não são somados")
+	}
+}
