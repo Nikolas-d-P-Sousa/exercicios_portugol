@@ -1,0 +1,31 @@
+programa
+{
+	inclua biblioteca Texto --> t
+	
+	
+	funcao inicio()
+	{
+	
+	cadeia nome_do_carro = "Fusca"
+		escreva(nome_do_carro,"\n")
+
+		
+	cadeia nome
+	inteiro idade
+
+	
+	escreva ("Qual o seu nome ? ")
+	leia (nome)
+	inteiro nome_tamanho = t.numero_caracteres(nome)
+
+	escreva ("Qual a sua idade ?")
+	leia (idade)
+
+	escreva ( "Olá ", t.caixa_alta(nome), " sua idade é ", idade, "\n")
+	escreva ( "Seu nome tem ", nome_tamanho, " caracteres \n")
+	escreva ("You have seen too few winters, to form your own regrets! :)")
+
+
+	 
+	}
+}
