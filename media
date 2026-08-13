@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro loop = 1
+		inteiro soma = 0
+		inteiro num = 0
+
+		faca
+		{
+			 escreva ("Insira um número: ")
+			 leia (num)
+			 escreva (num,"\n")
+			 soma += num
+			 loop += 1
+			 } enquanto (loop<=6)		
+		
+		escreva ("Sua média é: ",soma/6)
+	}
+}
