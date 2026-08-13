@@ -1,0 +1,22 @@
+programa
+{
+	
+inclua biblioteca Matematica --> m
+	funcao inicio()
+	{
+		real p_num
+		real s_num
+
+		escreva ("Insira um número ")
+		leia (p_num)
+
+		escreva ("Insira um número ")
+		leia (s_num)
+
+		inteiro maior_num = m.maior_numero(p_num, s_num)
+		
+		escreva ("O maior número é: ",maior_num, "\n")
+
+		}
+	}
+}
