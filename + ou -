@@ -1,0 +1,26 @@
+programa
+{
+	
+inclua biblioteca Matematica --> m
+	funcao inicio()
+	{
+	real num
+
+	escreva ("Insira um número ")
+	leia (num)
+
+
+	se (num > 0)
+		{
+		escreva ("Ele é positivo")
+		}
+		senao se (num <0)
+		{
+			escreva ("Ele é negativo")
+		}
+		senao{
+			escreva ("Ele é zero")
+		}
+		escreva("\n Você inseriu o número ", num)
+	}
+}
