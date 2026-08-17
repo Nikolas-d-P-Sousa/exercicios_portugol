@@ -1,0 +1,62 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, n4, n5, n6
+		inteiro soma = 0
+
+		escreva ("Insira o primeiro número: ")
+		leia(n1)
+		
+		escreva ("Insira o segundo número: ")
+		leia(n2)
+
+		escreva ("Insira o terceiro número: ")
+		leia(n3)
+
+		escreva ("Insira o quarto número: ")
+		leia(n4)
+
+		escreva ("Insira o quinto número: ")
+		leia(n5)
+
+		escreva ("Insira o sexto número: ")
+		leia(n6)
+
+		se (n1 < 72)
+		{
+			soma += n1
+		}
+
+		se (n2 < 72)
+		{
+			soma += n2
+		}
+
+		se (n3 < 72)
+		{
+			soma += n3
+		}
+
+		se (n4 < 72)
+		{
+			soma += n4
+		}
+
+		se (n5 < 72)
+		{
+			soma += n5
+		}
+
+		se (n6 < 72)
+		{
+			soma += n6
+		}
+
+		escreva (n1," ", n2," ", n3," ", n4, " ", n5, " ", n6)
+		escreva ("\n", soma)
+		
+		
+	}
+}
