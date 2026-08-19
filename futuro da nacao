@@ -6,7 +6,7 @@ programa
 	inteiro idade
 	escreva("Insira sua idade")
 	leia(idade)
-	se (idade>16)
+	se (idade>=16)
 	{
 		escreva("Você tem idade o suficiente para votar")
 	}
