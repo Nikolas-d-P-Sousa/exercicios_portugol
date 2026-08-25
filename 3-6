@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num = 1
+		real soma = 0.0
+		inteiro notas = 6 // Quantidade de notas que serão calculadas
+		para (inteiro i = 0; i < notas; i++)
+		{
+			se (num > 0 e num <=10)
+			{
+				escreva ("Insira um número: ")
+				leia (num)
+				soma += num
+			}
+
+			enquanto (num < 0 ou num > 10)
+			{
+				escreva ("Número inválido, insira um número entre 0 e 10: ")
+				leia (num)
+				se (num > 0 e num <=10)
+				{
+					soma += num
+				}
+				
+			}
+			
+		}
+		escreva ("A média de todas a notas é: ", soma/notas)
+	}
+}
