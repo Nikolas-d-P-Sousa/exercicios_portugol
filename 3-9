@@ -1,0 +1,40 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro num = 0
+	inteiro div42 = 0
+	inteiro div24 = 0
+	inteiro divNO = 0
+		
+		para (inteiro i = 1; i <10; i++)
+		{
+			escreva ("Insira um número: ")
+			leia
+ (num)
+
+			se (num % 24 == 0)
+			{	
+				div24++
+			}
+
+			senao se (num % 42 == 0)
+			{
+				div42++
+			}
+			senao
+			{
+				divNO++
+			}
+		}
+		escreva (div24, " números são divisiveis por 24 \n")
+		escreva (div42, " números são divisiveis por 42 \n")
+		escreva (divNO, " 
+	}
+}
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
