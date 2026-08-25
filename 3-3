@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real soma = 0.0
+		
+		para (inteiro i = 15; i < 101; i++)
+		{
+			soma += i
+			escreva (soma,"\n")
+		}
+		soma = soma/ 86
+		escreva (soma)
+	}
+}
