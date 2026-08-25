@@ -1,0 +1,42 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real soma = 0.0 // Soma dos inteiros
+		inteiro contador = 0  // Quantide de número que será usado para calcular a média
+
+		real num1 = 1.0, num2 = 0.0
+
+		enquanto (num1 >= num2)
+		{
+			escreva ("Insira o primeiro número: ")
+			leia (num1)
+
+			escreva ("Insira o segundo número: ")
+			leia (num2)
+
+			se (num1 >= num2)
+			{
+				escreva ("Oops... \nOs números precisam ser diferentes, e o segundo maior que o primeiro \n")
+			}
+		}
+		
+		para (inteiro i = num1; i <= num2; i++)
+		{
+			soma += i
+			contador++
+			escreva (soma,"\n")
+
+			se (i == num2)
+			{
+				escreva ("A média de ", num1, " e ", num2, " é: ", ((num1 + num2)/2))
+				
+				soma = soma/ contador
+				escreva ("\nA média de todos os inteiros é: ", soma, " e há: ", contador-1, " números entre ", num1, " e " , num2 )
+			}
+			
+		}
+
+	}
+}
