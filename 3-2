@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real n1 = 0, n2 = 0
+		real resultado = 0
+		
+
+		escreva ("Insira um número: ")
+		leia (n1)
+
+		
+
+		enquanto (n2 <= 0)
+		{
+			escreva ("Insira um número: ")
+			leia (n2)
+			resultado = n1 / n2
+		}
+		
+			escreva (resultado)
+	}
+}
