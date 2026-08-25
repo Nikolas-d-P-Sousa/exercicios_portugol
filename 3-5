@@ -1,0 +1,36 @@
+programa
+{
+	inclua biblioteca Texto --> t
+	
+	funcao inicio()
+	{
+		real nota1 = 0.0
+		real nota2 = 0.0
+		real media = 0.0
+		inteiro alunos_aprovados = 0
+		cadeia continuar = "S"
+
+		enquanto (continuar == "S")
+		{
+			escreva ("Insira a primeira nota do aluno(a): ")
+			leia (nota1)
+
+			escreva ("Insira a segunda nota do aluno(a): ")
+			leia (nota2)			
+			media = nota1 + nota2
+			media = media/2
+			escreva ("A media é: ", media, "\n")
+
+			se (media > 9.5)
+			{
+				alunos_aprovados++ 
+			}
+
+			escreva ("Deseja calcular a média de outro aluno(a) ? (S)im ou (N)ão \n")
+			leia (continuar)
+			continuar = t.caixa_alta(continuar)
+		}
+		escreva (alunos_aprovados, " alunos foram aprovados")
+	}
+	
+}
