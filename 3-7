@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num = 0
+		escreva("Insira um número: ")
+		enquanto (num <=0)
+		{
+			leia (num)
+			se (num <=0)
+			{
+				escreva ("Número inválido, insira um valor maior que zero: ")
+			}
+		para (inteiro i = 1; i <= num ; i++)
+		{
+			escreva (i, "\n")
+		} 
+		}
+		}
+	
+}
